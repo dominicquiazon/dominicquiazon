@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @dominicquiazon
-- 👀 I’m interested in Data Analytics and Business Intelligence
-- 🌱 I’m currently learning advanced data science methods to employ within my analyses. 
-- 💞️ I’m looking to collaborate on building machine learning models to predict various outcomes such as projected revenue, consumer behavior, customer churn, and much more.
+- 👀 I’m interested in Full Stack Development, AI, and Machine Learning
+- 🌱 I’m currently learning Full Stack Development 
+- 💞️ I’m looking to collaborate on building machine learning models and full-stack applications.
 - 📫 How to reach me dominicquiazon@gmail.com
 
 <!---

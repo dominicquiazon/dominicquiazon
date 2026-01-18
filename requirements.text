@@ -1,0 +1,167 @@
+# =============================================================================
+# Job Board Backend - Python Dependencies
+# =============================================================================
+# This file lists all Python packages required to run the application.
+# Install with: pip install -r requirements.txt
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Web Framework
+# -----------------------------------------------------------------------------
+# FastAPI: Modern, fast (high-performance) web framework for building APIs
+# - Automatic OpenAPI documentation
+# - Type hints for validation
+# - Async support out of the box
+fastapi==0.109.0
+
+# Uvicorn: ASGI server implementation
+# - Used to run FastAPI applications
+# - Supports async/await
+# - Production-ready with --workers flag
+uvicorn[standard]==0.27.0
+
+# -----------------------------------------------------------------------------
+# Database
+# -----------------------------------------------------------------------------
+# SQLAlchemy: SQL toolkit and ORM (Object-Relational Mapping)
+# - Allows writing Python code instead of raw SQL
+# - Type-safe queries with 2.0 style
+# - Supports many database backends
+sqlalchemy[asyncio]==2.0.25
+
+# Asyncpg: PostgreSQL driver for async operations
+# - Required for async SQLAlchemy with PostgreSQL
+# - High performance, pure Python
+asyncpg==0.29.0
+
+# Psycopg2: PostgreSQL adapter (for sync operations and migrations)
+# - Binary version for easier installation
+psycopg2-binary==2.9.9
+
+# Alembic: Database migration tool
+# - Manages database schema changes
+# - Version control for database
+alembic==1.13.1
+
+# -----------------------------------------------------------------------------
+# Caching
+# -----------------------------------------------------------------------------
+# Redis: In-memory data store client
+# - Used for caching search results
+# - Session storage
+# - Rate limiting
+redis==5.0.1
+
+# -----------------------------------------------------------------------------
+# Authentication & Security
+# -----------------------------------------------------------------------------
+# Python-Jose: JWT (JSON Web Token) implementation
+# - Creates and validates tokens
+# - Used for stateless authentication
+python-jose[cryptography]==3.3.0
+
+# Passlib: Password hashing library
+# - Secure password storage
+# - Uses bcrypt by default
+passlib[bcrypt]==1.7.4
+
+# Bcrypt: Password hashing algorithm
+# - Industry standard for password hashing
+# - Slow by design (resistant to brute force)
+bcrypt==4.1.2
+
+# -----------------------------------------------------------------------------
+# Data Validation
+# -----------------------------------------------------------------------------
+# Pydantic: Data validation using Python type hints
+# - Automatic request/response validation
+# - Serialization and deserialization
+# - Settings management
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# Email-validator: Email validation
+# - Used by Pydantic for email fields
+email-validator==2.1.0
+
+# -----------------------------------------------------------------------------
+# Background Tasks
+# -----------------------------------------------------------------------------
+# APScheduler: Advanced Python Scheduler
+# - Scheduled background tasks
+# - Cron-like scheduling
+apscheduler==3.10.4
+
+# -----------------------------------------------------------------------------
+# HTTP Client
+# -----------------------------------------------------------------------------
+# HTTPX: Async HTTP client
+# - Used for external API calls
+# - Testing client
+httpx==0.26.0
+
+# -----------------------------------------------------------------------------
+# Utilities
+# -----------------------------------------------------------------------------
+# Python-multipart: Required for form data parsing
+# - File uploads
+# - Form submissions
+python-multipart==0.0.6
+
+# Python-dotenv: Load environment variables from .env file
+# - Local development configuration
+python-dotenv==1.0.0
+
+# Tenacity: Retry library
+# - Automatic retries with exponential backoff
+# - Used for database connection retries
+tenacity==8.2.3
+
+# -----------------------------------------------------------------------------
+# Testing
+# -----------------------------------------------------------------------------
+# Pytest: Testing framework
+# - Simple, powerful testing
+# - Fixtures and parameterization
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+
+# Factory Boy: Test data generation
+# - Creates realistic test objects
+# - Integrates with SQLAlchemy
+factory-boy==3.3.0
+
+# Faker: Fake data generation
+# - Realistic names, emails, addresses
+# - Used by Factory Boy
+faker==22.2.0
+
+# -----------------------------------------------------------------------------
+# Development Tools
+# -----------------------------------------------------------------------------
+# Black: Code formatter
+# - Consistent code style
+# - PEP 8 compliant
+black==24.1.1
+
+# Ruff: Fast Python linter
+# - Replaces flake8, isort, etc.
+# - Very fast
+ruff==0.1.14
+
+# Mypy: Static type checker
+# - Catches type errors before runtime
+mypy==1.8.0
+
+# Types for libraries
+types-redis==4.6.0.20240106
+types-passlib==1.7.7.20240106
+
+# -----------------------------------------------------------------------------
+# Logging
+# -----------------------------------------------------------------------------
+# Structlog: Structured logging
+# - JSON-formatted logs
+# - Better for log aggregation
+structlog==24.1.0

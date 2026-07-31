@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @dominicquiazon
+- 👋 Hi, I’m @dominicquiazon and I am a Systems Test Engineer
 - 👀 I’m interested in Full Stack Development, AI, and Machine Learning
 - 🌱 I’m currently learning Full Stack Development 
 - 💞️ I’m looking to collaborate on building machine learning models and full-stack applications.
